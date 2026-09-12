@@ -379,6 +379,36 @@ ul li { margin: 6px 0; }
   border-radius: 6px;
 }
 
+/* ---------- Bloc batiment ---------- */
+.building {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin: 12px 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.building-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  text-transform: none;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+}
+
+.building p { margin: 6px 0; font-size: 15px; }
+
+.building-addr {
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 14px !important;
+}
+
+.building-addr strong { color: var(--text); }
+
 /* ---------- Liens de bas de section ---------- */
 .links {
   font-size: 14px;
